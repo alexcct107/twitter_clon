@@ -1,16 +1,15 @@
 <div class="column is-half">
-<article class="media box">
+<article class="media-box">
 <figure class="media-left">
     <p class="image is-64x64">
         <img src="https://bulma.io/images/placeholders/64x64.png">
     </p>
     </figure>
-
     <div class="media-content">
         <%= render 'tweeets/form' %>
     </div>
 </article>
-</div>
+
 
 <% @tweeets.each do |tweeet| %>
 <div class="box">
@@ -20,8 +19,7 @@
                 <img src="https://bulma.io/images/placeholders/64x64.png">
             </figure>
         </div>
-
-    </article>
+        
         <div class="media-content">
             <div class="content">
                 <strong> Ivan Carrasco</strong><br>
@@ -43,11 +41,9 @@
                 <% end %>   
         </div>
             </nav>
-        </div>
-
-
-    
+        </div>         
+    </article> 
 </div>
     <% end %>
-
+</div>
 
